@@ -1,0 +1,18 @@
+Model Comparison Analysis - Gemma 4 12B Generated
+============================================================
+
+**Relatório Executivo: Avaliação de Modelos de Diagnóstico**
+
+**1. Análise de Melhoria**
+Não houve melhoria nos indicadores principais de desempenho. As métricas de *Accuracy*, *Recall*, *Precision* e *F1-Score* permanecem idênticas entre os dois modelos. Observa-se, inclusive, uma **redução no AUC** (de 0,9967 para 0,9934) no modelo otimizado com AG, indicando uma leve perda na capacidade de discriminação global do modelo.
+
+**2. Impacto Clínico**
+O impacto clínico é nulo. Como o *Recall* (Sensibilidade) e a *Precision* (Precisão) não variaram, a taxa de falsos negativos e falsos positivos permanece constante. O modelo otimizado não oferece ganho de segurança para o paciente nem maior confiabilidade para a decisão clínica.
+
+**3. Trade-offs**
+*   **Complexidade vs. Performance:** O modelo otimizado com AG introduz uma complexidade computacional maior sem entregar qualquer ganho de performance.
+*   **Robustez:** O modelo Baseline apresenta um AUC superior, sugerindo que ele é ligeiramente mais robusto na separação das classes em diferentes limiares de decisão.
+
+**4. Recomendação de Adoção**
+**Não adotar o Modelo Otimizado.**
+Recomenda-se a manutenção do **Modelo Baseline**. Ele é superior tecnicamente (maior AUC) e mais eficiente, pois entrega o mesmo resultado clínico com uma estrutura potencialmente menos complexa que o modelo otimizado por AG.

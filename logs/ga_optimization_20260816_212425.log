@@ -1,0 +1,54 @@
+2026-08-16 21:24:25,671 - INFO - 🚀 INICIANDO TECH CHALLENGE FASE 2
+2026-08-16 21:24:25,674 - INFO - Seed: 42
+2026-08-16 21:25:27,797 - INFO - RF Baseline F1: 0.9630
+2026-08-16 21:25:27,798 - INFO - LR Baseline F1: 0.9639
+2026-08-16 21:26:03,077 - INFO - Experimento 1 iniciado com params: {'pop_size': 10, 'generations': 30, 'mutation_rate': 0.05, 'crossover_rate': 0.8}
+2026-08-16 21:26:03,078 - INFO - GA Initializado: GA_Conservative
+2026-08-16 21:26:03,079 - INFO -   Population: 10, Generations: 30
+2026-08-16 21:26:03,081 - INFO -   Mutation Rate: 0.05, Crossover Rate: 0.8
+2026-08-16 21:26:03,082 - INFO - Iniciando evolução para GA_Conservative
+2026-08-16 21:26:55,713 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9630
+2026-08-16 21:27:46,683 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9630
+2026-08-16 21:28:37,662 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9617
+2026-08-16 21:28:37,663 - INFO - Evolução concluída para GA_Conservative
+2026-08-16 21:28:37,665 - INFO - Best Fitness: 0.9630
+2026-08-16 21:28:37,986 - INFO - Exp1 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9927248677248678}
+2026-08-16 21:30:07,044 - INFO - Experimento 2 iniciado com params: {'pop_size': 20, 'generations': 50, 'mutation_rate': 0.15, 'crossover_rate': 0.7}
+2026-08-16 21:30:07,045 - INFO - GA Initializado: GA_Balanced
+2026-08-16 21:30:07,046 - INFO -   Population: 20, Generations: 50
+2026-08-16 21:30:07,047 - INFO -   Mutation Rate: 0.15, Crossover Rate: 0.7
+2026-08-16 21:30:07,048 - INFO - Iniciando evolução para GA_Balanced
+2026-08-16 21:32:02,197 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9611
+2026-08-16 21:33:48,998 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9623
+2026-08-16 21:35:34,071 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9630
+2026-08-16 21:37:11,534 - INFO - Gen  40 | Best: 0.9630 | Avg: 0.9630
+2026-08-16 21:38:59,729 - INFO - Gen  50 | Best: 0.9630 | Avg: 0.9611
+2026-08-16 21:38:59,731 - INFO - Evolução concluída para GA_Balanced
+2026-08-16 21:38:59,732 - INFO - Best Fitness: 0.9630
+2026-08-16 21:39:00,638 - INFO - Exp2 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9933862433862434}
+2026-08-17 00:11:25,018 - INFO - Experimento 3 iniciado com params: {'pop_size': 30, 'generations': 70, 'mutation_rate': 0.25, 'crossover_rate': 0.6}
+2026-08-17 00:11:25,020 - INFO - GA Initializado: GA_Aggressive
+2026-08-17 00:11:25,021 - INFO -   Population: 30, Generations: 70
+2026-08-17 00:11:25,022 - INFO -   Mutation Rate: 0.25, Crossover Rate: 0.6
+2026-08-17 00:11:25,023 - INFO - Iniciando evolução para GA_Aggressive
+2026-08-17 00:13:46,749 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9612
+2026-08-17 00:15:46,341 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9625
+2026-08-17 00:17:53,440 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9625
+2026-08-17 00:19:56,563 - INFO - Gen  40 | Best: 0.9630 | Avg: 0.9630
+2026-08-17 00:22:06,185 - INFO - Gen  50 | Best: 0.9630 | Avg: 0.9625
+2026-08-17 00:24:21,384 - INFO - Gen  60 | Best: 0.9630 | Avg: 0.9625
+2026-08-17 00:26:30,597 - INFO - Gen  70 | Best: 0.9630 | Avg: 0.9625
+2026-08-17 00:26:30,598 - INFO - Evolução concluída para GA_Aggressive
+2026-08-17 00:26:30,599 - INFO - Best Fitness: 0.9630
+2026-08-17 00:26:31,008 - INFO - Exp3 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9923941798941799}
+2026-08-17 00:58:13,736 - INFO - Experimento 1 iniciado com params: {'pop_size': 10, 'generations': 30, 'mutation_rate': 0.05, 'crossover_rate': 0.8}
+2026-08-17 00:58:13,738 - INFO - GA Initializado: GA_Conservative
+2026-08-17 00:58:13,739 - INFO -   Population: 10, Generations: 30
+2026-08-17 00:58:13,740 - INFO -   Mutation Rate: 0.05, Crossover Rate: 0.8
+2026-08-17 00:58:13,741 - INFO - Iniciando evolução para GA_Conservative
+2026-08-17 00:59:20,481 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9604
+2026-08-17 01:00:21,337 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9617
+2026-08-17 01:01:16,957 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9630
+2026-08-17 01:01:16,958 - INFO - Evolução concluída para GA_Conservative
+2026-08-17 01:01:16,959 - INFO - Best Fitness: 0.9630
+2026-08-17 01:01:17,422 - INFO - Exp1 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9923941798941799}

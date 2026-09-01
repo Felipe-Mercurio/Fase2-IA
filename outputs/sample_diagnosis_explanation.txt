@@ -1,0 +1,46 @@
+Sample Diagnosis Explanation
+============================================================
+AI Model: Gemma 4 12B (LM Studio)
+Case #0
+Prediction: Benigno
+Confidence: 99.9%
+============================================================
+
+Prezado colega,
+
+Apresento abaixo a análise técnica dos dados fornecidos pelo modelo de inteligência artificial. É fundamental ressaltar que este relatório constitui uma interpretação de dados computacionais e não substitui a avaliação radiológica direta, o exame físico ou a confirmação histopatológica.
+
+---
+
+### Relatório de Análise de Dados de Imagem (Suporte à Decisão Clínica)
+
+**Dados de Entrada:**
+*   **Classificação da IA:** Benigno (Confiança: 99,9%)
+*   **Parâmetros Normalizados:** Área (-0,651), Concavidade (N/A), Perímetro (-0,701), Raio (-0,714), Textura (-1,581).
+
+#### 1. Interpretação Clínica
+A análise dos parâmetros morfométricos normalizados sugere uma lesão com características predominantemente regulares. 
+*   **Morfologia (Raio e Perímetro):** Os valores negativos e próximos entre si para Raio (-0,714) e Perímetro (-0,701) indicam uma relação de proporcionalidade favorável, sugerindo uma lesão com contornos regulares e formato arredondado ou ovalado.
+*   **Textura:** O valor de -1,581 é o mais expressivo do conjunto. Em modelos de análise de textura de mama, valores significativamente abaixo da média frequentemente correlacionam-se com alta homogeneidade interna. A homogeneidade é um forte marcador de benignidade, comum em lesões como fibroadenomas ou cistos simples.
+*   **Área:** O valor de -0,651 sugere uma dimensão reduzida em comparação com o banco de dados de referência do modelo.
+
+#### 2. Análise de Risco
+O risco de malignidade, baseado exclusivamente nos dados fornecidos pelo modelo, é considerado **muito baixo**. A alta confiança (99,9%) aliada à homogeneidade de textura e regularidade de contorno aponta para uma lesão de natureza benigna.
+
+Contudo, há uma limitação crítica: o dado de **Concavidade está como "N/A"**. A concavidade é um dos parâmetros mais sensíveis para identificar margens irregulares ou espiculadas (sinais de malignidade). A ausência deste dado impede a exclusão definitiva de irregularidades marginais por meio deste modelo específico.
+
+#### 3. Recomendações
+*   **Correlação Clínica:** É indispensável correlacionar estes achados com o exame físico da paciente e o histórico clínico (ex: presença de nódulos palpáveis, sintomas sistêmicos ou histórico familiar).
+*   **Avaliação Radiológica Padrão:** Solicitar/revisar a mamografia e ultrassonografia para confirmar a homogeneidade e a regularidade da lesão, estabelecendo a classificação BI-RADS adequada.
+*   **Monitoramento:** Caso a imagem de suporte confirme a homogeneidade e a regularidade, o seguimento periódico padrão é indicado, conforme protocolos vigentes.
+*   **Conduta em Caso de Dúvida:** Se houver qualquer discordância entre a imagem diagnóstica e este modelo de IA, ou se houver suspeita clínica persistente, a biópsia por agulha grossa (Core Biopsy) deve ser considerada o padrão-ouro.
+
+#### 4. Observações Importantes
+*   **Natureza do Resultado:** Este relatório é uma interpretação de dados gerados por um modelo de inteligência artificial. A IA atua como uma ferramenta de triagem e suporte à decisão, não substituindo o julgamento clínico do médico radiologista.
+*   **Limitação de Dados:** O valor "N/A" para concavidade deve ser tratado com cautela, pois a ausência de informação sobre a irregularidade da margem é uma lacuna que deve ser suprida pela análise visual direta do exame de imagem.
+*   **Normalização:** Os valores apresentados são normalizados; portanto, a interpretação depende da calibração específica do algoritmo utilizado pelo fabricante do software.
+
+Atenciosamente,
+
+**Médico Radiologista**
+Especialista em Diagnóstico de Câncer de Mama

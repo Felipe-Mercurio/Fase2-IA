@@ -1,0 +1,43 @@
+2026-08-31 21:24:41,886 - INFO - 🚀 INICIANDO TECH CHALLENGE FASE 2
+2026-08-31 21:24:41,888 - INFO - Seed: 42
+2026-08-31 21:24:50,349 - INFO - RF Baseline F1: 0.9630
+2026-08-31 21:24:50,351 - INFO - LR Baseline F1: 0.9639
+2026-08-31 21:25:12,606 - INFO - Experimento 1 iniciado com params: {'pop_size': 10, 'generations': 30, 'mutation_rate': 0.05, 'crossover_rate': 0.8}
+2026-08-31 21:25:12,607 - INFO - GA Initializado: GA_Conservative
+2026-08-31 21:25:12,608 - INFO -   Population: 10, Generations: 30
+2026-08-31 21:25:12,609 - INFO -   Mutation Rate: 0.05, Crossover Rate: 0.8
+2026-08-31 21:25:12,611 - INFO - Iniciando evolução para GA_Conservative
+2026-08-31 21:26:05,258 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9630
+2026-08-31 21:26:57,503 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9630
+2026-08-31 21:27:49,359 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9617
+2026-08-31 21:27:49,361 - INFO - Evolução concluída para GA_Conservative
+2026-08-31 21:27:49,362 - INFO - Best Fitness: 0.9630
+2026-08-31 21:27:49,627 - INFO - Exp1 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9927248677248678}
+2026-08-31 21:27:58,284 - INFO - Experimento 2 iniciado com params: {'pop_size': 20, 'generations': 50, 'mutation_rate': 0.15, 'crossover_rate': 0.7}
+2026-08-31 21:27:58,287 - INFO - GA Initializado: GA_Balanced
+2026-08-31 21:27:58,289 - INFO -   Population: 20, Generations: 50
+2026-08-31 21:27:58,290 - INFO -   Mutation Rate: 0.15, Crossover Rate: 0.7
+2026-08-31 21:27:58,291 - INFO - Iniciando evolução para GA_Balanced
+2026-08-31 21:30:03,892 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9611
+2026-08-31 21:32:01,010 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9623
+2026-08-31 21:33:58,483 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9630
+2026-08-31 21:35:44,082 - INFO - Gen  40 | Best: 0.9630 | Avg: 0.9630
+2026-08-31 21:37:32,921 - INFO - Gen  50 | Best: 0.9630 | Avg: 0.9611
+2026-08-31 21:37:32,922 - INFO - Evolução concluída para GA_Balanced
+2026-08-31 21:37:32,923 - INFO - Best Fitness: 0.9630
+2026-08-31 21:37:33,753 - INFO - Exp2 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9933862433862434}
+2026-08-31 21:43:38,725 - INFO - Experimento 3 iniciado com params: {'pop_size': 30, 'generations': 70, 'mutation_rate': 0.25, 'crossover_rate': 0.6}
+2026-08-31 21:43:38,725 - INFO - GA Initializado: GA_Aggressive
+2026-08-31 21:43:38,726 - INFO -   Population: 30, Generations: 70
+2026-08-31 21:43:38,727 - INFO -   Mutation Rate: 0.25, Crossover Rate: 0.6
+2026-08-31 21:43:38,727 - INFO - Iniciando evolução para GA_Aggressive
+2026-08-31 21:45:32,137 - INFO - Gen  10 | Best: 0.9630 | Avg: 0.9612
+2026-08-31 21:47:08,509 - INFO - Gen  20 | Best: 0.9630 | Avg: 0.9625
+2026-08-31 21:48:49,561 - INFO - Gen  30 | Best: 0.9630 | Avg: 0.9625
+2026-08-31 21:50:27,559 - INFO - Gen  40 | Best: 0.9630 | Avg: 0.9630
+2026-08-31 21:52:08,859 - INFO - Gen  50 | Best: 0.9630 | Avg: 0.9625
+2026-08-31 21:53:55,297 - INFO - Gen  60 | Best: 0.9630 | Avg: 0.9625
+2026-08-31 21:55:25,743 - INFO - Gen  70 | Best: 0.9630 | Avg: 0.9625
+2026-08-31 21:55:25,744 - INFO - Evolução concluída para GA_Aggressive
+2026-08-31 21:55:25,745 - INFO - Best Fitness: 0.9630
+2026-08-31 21:55:26,033 - INFO - Exp3 Scores: {'accuracy': 0.9736842105263158, 'precision': 1.0, 'recall': 0.9285714285714286, 'f1': 0.962962962962963, 'auc': 0.9923941798941799}
