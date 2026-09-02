@@ -1,18 +1,17 @@
 Model Comparison Analysis - Gemma 4 12B Generated
 ============================================================
 
-**Relatório Executivo: Avaliação de Modelos de Diagnóstico**
+**Relatório Executivo: Comparação de Modelos de Diagnóstico**
 
 **1. Análise de Melhoria**
-Não houve melhoria nos indicadores principais de desempenho. As métricas de *Accuracy*, *Recall*, *Precision* e *F1-Score* permanecem idênticas entre os dois modelos. Observa-se, inclusive, uma **redução no AUC** (de 0,9967 para 0,9934) no modelo otimizado com AG, indicando uma leve perda na capacidade de discriminação global do modelo.
+Não houve melhoria nos indicadores principais. O Modelo Otimizado (com AG) apresenta métricas idênticas ao Baseline em *Accuracy*, *Recall*, *Precision* e *F1-Score*. Observa-se, inclusive, uma **regressão no AUC** (de 0.9967 para 0.9934), indicando que a capacidade de distinção entre as classes pelo modelo otimizado é ligeiramente inferior à do Baseline.
 
 **2. Impacto Clínico**
-O impacto clínico é nulo. Como o *Recall* (Sensibilidade) e a *Precision* (Precisão) não variaram, a taxa de falsos negativos e falsos positivos permanece constante. O modelo otimizado não oferece ganho de segurança para o paciente nem maior confiabilidade para a decisão clínica.
+O impacto clínico é nulo em termos de triagem e diagnóstico, uma vez que a taxa de falsos positivos (Precision 1.0) e a sensibilidade (Recall) permanecem inalteradas. No entanto, a queda no AUC sugere que o modelo otimizado é menos robusto na ordenação de probabilidades, o que pode afetar a confiabilidade em cenários de corte (thresholds) variáveis.
 
 **3. Trade-offs**
-*   **Complexidade vs. Performance:** O modelo otimizado com AG introduz uma complexidade computacional maior sem entregar qualquer ganho de performance.
-*   **Robustez:** O modelo Baseline apresenta um AUC superior, sugerindo que ele é ligeiramente mais robusto na separação das classes em diferentes limiares de decisão.
+*   **Complexidade vs. Performance:** O modelo otimizado introduz a complexidade do algoritmo genético (AG) sem oferecer qualquer ganho de performance.
+*   **Estabilidade:** O Baseline demonstra uma separação de classes mais eficiente (AUC superior), sendo tecnicamente mais sólido.
 
 **4. Recomendação de Adoção**
-**Não adotar o Modelo Otimizado.**
-Recomenda-se a manutenção do **Modelo Baseline**. Ele é superior tecnicamente (maior AUC) e mais eficiente, pois entrega o mesmo resultado clínico com uma estrutura potencialmente menos complexa que o modelo otimizado por AG.
+**Não adotar o Modelo Otimizado.** Recomenda-se a manutenção do **Modelo Baseline**, pois ele supera o modelo otimizado em AUC e oferece o mesmo desempenho nos demais critérios clínicos essenciais, garantindo maior robustez diagnóstica com menor complexidade de implementação.
